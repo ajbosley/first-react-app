@@ -1,15 +1,17 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import logo from '../media/img/logo.svg';
+import '../styles/App.css';
+import Navbar from './Navbar'
 
 class App extends Component {
   render() {
+    let text = "2 many skillz!";
     return (
       <div className="App">
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
           <p>
-            Edit <code>src/App.js</code> and save to reload.
+            Edit <code>src/App.js</code> and save to reload.<br></br>{text}
           </p>
           <a
             className="App-link"
@@ -19,6 +21,7 @@ class App extends Component {
           >
             Learn React
           </a>
+          <Navbar name={"Aaron"}/>
         </header>
       </div>
     );
