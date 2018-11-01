@@ -1,28 +1,16 @@
 import React, { Component } from 'react';
-import logo from '../media/img/logo.svg';
 import '../styles/App.css';
-import Navbar from './Navbar'
+import Navbar from './Navbar';
+import Gridcontainer from './Gridcontainer';
 
 class App extends Component {
   render() {
-    let text = "2 many skillz!";
     return (
       <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.<br></br>{text}
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-          <Navbar name={"Aaron"}/>
-        </header>
+          <Navbar/>
+          <div className="main">
+          <Gridcontainer/>
+          </div>
       </div>
     );
   }
