@@ -1,0 +1,39 @@
+.grid-container {
+    display: grid;
+    grid-template: "posts posts"
+        "about contact"
+        "resume resume";
+        grid-gap:0.75rem;
+}
+.block{
+    background-color: var(--light-orange);
+    box-shadow: var(--shadow);
+}
+
+.posts {
+    grid-area: posts;
+}
+
+.about {
+    grid-area: about;
+}
+
+.resume {
+    grid-area: resume;
+}
+
+.contact {
+    grid-area: contact;
+}
+
+@media only screen and (max-width:500px) {
+    .grid-container {
+        display: grid;
+        grid-template: "posts posts"
+            "about about"
+            "contact contact"
+            "resume resume";
+        background-color: var(--dark-orange);
+
+    }
+}
