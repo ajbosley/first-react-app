@@ -1,3 +1,31 @@
+#resume{
+  height:1000px
+}
 .main {
-  margin-top: 10px;
+  padding: 0.5rem;
+}
+
+body {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: var(--light-grey)
+}
+
+.fa {
+  font-size: 1.75rem;
+}
+
+@media screen and (max-width:600px) {
+  .desktop {
+    display: none;
+  }
+}
+@media screen and (min-width:600px) {
+  .mobile {
+    display: none;
+
+  }
 }
