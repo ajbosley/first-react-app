@@ -16,12 +16,13 @@ class Gridcontainer extends Component {
                 <div className="about block">
                     <About />
                 </div>
-                <div className="resume block">
-                    <Resume />
-                </div>
                 <div className="contact block">
                     <Contact />
                 </div>
+                <div className="resume block">
+                    <Resume />
+                </div>
+
             </div>
         )
     }   
