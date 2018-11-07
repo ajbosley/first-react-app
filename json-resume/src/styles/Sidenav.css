@@ -1,0 +1,59 @@
+.sideNavContainer {
+    height: 100%;
+    background-color: var(--opaque);
+    width: 0;
+    top: 0;
+    right: 0;
+    z-index: 23;
+    overflow: hidden;
+    position: fixed;
+}
+
+.sideNav {
+    height: 100%;
+    background-color: var(--blue);
+    width: 0;
+    top: 0;
+    right: 0;
+    z-index: 23;
+    overflow: hidden;
+    position: fixed;
+    transition: 0.3s;
+}
+
+.closeButton {
+    width: 100%;
+    top: 0;
+    left: 0;
+    padding-left: 5%;
+    background-color: var(--bgrey);
+}
+
+.sideNavFooter {
+    position: fixed;
+    bottom: 90px;
+    width: 90%;
+    margin: auto;
+}
+
+.sideNavItems ul {
+    list-style: none;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+    font-size: 24px;
+}
+
+.sideNavItems ul li {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 5%;
+}
+
+.sideNavItems ul li:hover {
+    background-color: var(--bgrey);
+}
+
+.smallText {
+    font-size: 18px;
+}
