@@ -14,6 +14,9 @@ class Sidenav extends Component {
                 <div className="closeButton" onClick={this.close.bind(this)}>
                     <i className="fa fa-times"></i>
                 </div>
+                <div className="avatar">
+                    Stick an avatar here cos why the fudge not
+                </div>
                 <div className="sideNavItems">
                     <ul>
                             <a href="#home"><li><span>Home</span></li></a>
