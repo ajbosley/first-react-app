@@ -19,14 +19,21 @@ class Sidenav extends Component {
                 </div>
                 <div className="sideNavItems">
                     <ul>
-                            <a href="#home"><li><span>Home</span></li></a>
-                            <a href="#gallery"><li><span>Gallery</span></li></a>
-
-                            <a href="#blog"><li><span>Blog</span></li></a>
-
-                            <a href="#github"><li><span>GitHub</span><span className="smallText"> - Guideish</span></li></a>
-
-                            <a href="#resume"><li><span>Resume / CV</span></li></a>
+                        <a href="#home">
+                            <li><span>Home</span></li>
+                        </a>
+                        <a href="#gallery">
+                            <li><span>Gallery</span></li>
+                        </a>
+                        <a href="#blog">
+                            <li><span>Blog</span></li>
+                        </a>
+                        <a href="#github">
+                            <li><span>GitHub</span><span className="smallText"> - Guideish</span></li>
+                        </a>
+                        <a href="#resume">
+                            <li><span>Resume / CV</span></li>
+                        </a>
                     </ul>
                 </div>
                 <div className="sideNavFooter">

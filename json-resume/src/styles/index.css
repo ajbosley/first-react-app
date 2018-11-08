@@ -28,5 +28,6 @@ code {
   --light-orange: #ffab91;
   --purple: #b388ff;
   --shadow: 0 1px 5px rgba(104, 104, 104, 0.8);
+  --shadow-top: 5px 2px 1px 5px rgba(53, 50, 50, 0.4);
   --opaque: rgba(224, 224, 224, 0.9);
 }
